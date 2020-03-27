@@ -12,11 +12,3 @@
         </a>
     </div>
 </div>
-
-
-
-rgostic_192873129873
-cDS#a9B@GF&#$a!./aiosdf98
-
-opeaisfposiafosaif912398
-F()gV)5dXLEZqsxris

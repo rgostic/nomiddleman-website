@@ -19,7 +19,7 @@ body {
 
   //background-color: #1a012a;
 
-  background: linear-gradient(to bottom, $background-color,$background-fade-color);
+  background: linear-gradient(to bottom, $background-color, $background-fade-color);
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
@@ -38,13 +38,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 200px;
   padding: 12px 12px;
   font-size: 24px;
-
-    display: flex;
-
-    align-items: center;
-
-
-
+  display: flex;
+  align-items: center;
   background: linear-gradient(to right, $primary-color, $tertiary-color);
   color: #ffffff;
   border-radius: 5px;
@@ -53,9 +48,9 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
     width: 100px;
   }
+
   p {
     margin: 0;
     padding: 0;
   }
-
 }
