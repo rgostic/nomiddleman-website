@@ -1,0 +1,21 @@
+.top-fold {
+  background-image: url('/../wp-content/themes/nmm/img/svg/SQUIGGLE.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 12px 0 12px 0;
+  text-align: center;
+
+  h1 {
+    font-size:39px;
+    color: #ffffff;
+    font-family: 'Cocogoose', 'Prompt', sans-serif;
+    padding-bottom: 50px;
+  }
+
+  p {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 28px;
+  }
+}

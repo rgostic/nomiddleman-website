@@ -1,0 +1,293 @@
+.supported-crypto-list-image {
+    padding: 0;
+    display: inline;
+    vertical-align: top;
+    margin: 0 6px 24px 0;
+}
+
+.supported-crypto-list {
+    list-style-type: none;
+    display: flex;
+    color: #000;
+    flex-wrap: wrap;
+    padding: 24px 24px 0px 24px;
+    margin: 24px;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 15px #1a012a;
+    justify-content: space-around;
+}
+
+.supported-crypto-list li {
+    flex-basis: 140px;
+    white-space: nowrap;
+    font-size: 17px!important
+}
+
+.supported-crypto-list li:nth-child(40+n) {
+    justify-self: flex-start;
+}
+
+.sprint_0x-logo-small, .sprint_augur-logo-small, .sprint_basicattentiontoken-logo-small, .sprint_binancecoin-logo-small, .sprint_bitcoin-logo-small, .sprint_bitcoincash-logo-small, .sprint_bitcoindiamond-logo-small, .sprint_bitcoingold-logo-small, .sprint_bitcoinsv-logo-small, .sprint_blackcoin-logo-small, .sprint_bytecoin-logo-small, .sprint_cardano-logo-small, .sprint_chainlink-logo-small, .sprint_dash-logo-small, .sprint_decred-logo-small, .sprint_deeponion-logo-small, .sprint_digibyte-logo-small, .sprint_dogecoin-logo-small, .sprint_eos-logo-small, .sprint_ethereum-logo-small, .sprint_ethereumclassic-logo-small, .sprint_geminidollar-logo-small, .sprint_gnosis-logo-small, .sprint_holochain-logo-small, .sprint_iota-logo-small, .sprint_lisk-logo-small, .sprint_litecoin-logo-small, .sprint_maker-logo-small, .sprint_melon-logo-small, .sprint_monero-logo-small, .sprint_nem-logo-small, .sprint_omisego-logo-small, .sprint_ontology-logo-small, .sprint_potcoin-logo-small, .sprint_qtum-logo-small, .sprint_ripple-logo-small, .sprint_stellar-logo-small, .sprint_tezos-logo-small, .sprint_tron-logo-small, .sprint_vechain-logo-small, .sprint_vericoin-logo-small, .sprint_waves-logo-small, .sprint_zcash-logo-small {
+  display: inline-block;
+  background: url("/../wp-content/themes/nmm/img/spriteimage.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+  .sprint_0x-logo-small {
+      background-position: 0 0;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_augur-logo-small {
+      background-position: -25px 0;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_basicattentiontoken-logo-small {
+      background-position: -50px 0;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_binancecoin-logo-small {
+      background-position: -75px 0;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_bitcoin-logo-small {
+      background-position: -100px 0;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_bitcoincash-logo-small {
+      background-position: -125px 0;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_bitcoindiamond-logo-small {
+      background-position: 0 -25px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_bitcoingold-logo-small {
+      background-position: -25px -25px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_bitcoinsv-logo-small {
+      background-position: -50px -25px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_blackcoin-logo-small {
+      background-position: -75px -25px;
+      width: 25px;
+      height: 25px;
+  }
+  .sprint_bytecoin-logo-small {
+      background-position: -100px -25px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_cardano-logo-small {
+      background-position: -125px -25px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_chainlink-logo-small {
+      background-position: 0 -50px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_dash-logo-small {
+      background-position: -25px -50px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_decred-logo-small {
+      background-position: -50px -50px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_deeponion-logo-small {
+      background-position: -75px -50px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_digibyte-logo-small {
+      background-position: -100px -50px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_dogecoin-logo-small {
+      background-position: -125px -50px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_eos-logo-small {
+      background-position: 0 -75px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_ethereum-logo-small {
+      background-position: -25px -75px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_ethereumclassic-logo-small {
+      background-position: -50px -75px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_geminidollar-logo-small {
+      background-position: -75px -75px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_gnosis-logo-small {
+      background-position: -100px -75px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_holochain-logo-small {
+      background-position: -125px -75px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_iota-logo-small {
+      background-position: 0 -100px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_lisk-logo-small {
+      background-position: -25px -100px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_litecoin-logo-small {
+      background-position: -50px -100px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_maker-logo-small {
+      background-position: -75px -100px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_melon-logo-small {
+      background-position: -100px -100px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_monero-logo-small {
+      background-position: -125px -100px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_nem-logo-small {
+      background-position: 0 -125px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_omisego-logo-small {
+      background-position: -25px -125px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_ontology-logo-small {
+      background-position: -50px -125px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_potcoin-logo-small {
+      background-position: -75px -125px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_qtum-logo-small {
+      background-position: -100px -125px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_ripple-logo-small {
+      background-position: -125px -125px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_stellar-logo-small {
+      background-position: 0 -150px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_tezos-logo-small {
+      background-position: -25px -150px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_tron-logo-small {
+      background-position: -50px -150px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_vechain-logo-small {
+      background-position: -75px -150px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_vericoin-logo-small {
+      background-position: -100px -150px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_waves-logo-small {
+      background-position: -125px -150px;
+      width: 25px;
+      height: 25px;
+  }
+
+  .sprint_zcash-logo-small {
+      background-position: 0 -175px;
+      width: 25px;
+      height: 25px;
+  }

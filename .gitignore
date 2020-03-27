@@ -1,0 +1,10 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+.htaccess
+bower_components/
+node_modules/
+npm-debug.log

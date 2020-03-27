@@ -1,0 +1,31 @@
+.lab-results {
+  text-align: center;
+  padding: 4rem 0;
+  color: $primary-color;
+
+  h3 {
+    font-family: 'Cocogoose Semilight', sans-serif;
+  }
+
+  .product-image {
+    width: 265px;
+  }
+
+  .lab-result-link {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+      padding-top: 0.5rem;
+      margin: 0;
+      font-family: "Cocogoose Light", sans-serif;
+    }
+
+    img {
+      border: 1px solid #cecece;
+    }
+  }
+}

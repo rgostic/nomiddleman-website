@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1874" height="392.281" viewBox="0 0 1874 392.281">
+  <g id="SQUIGGLE" transform="translate(0 4.5)">
+    <g id="Group_12" data-name="Group 12" transform="translate(-22 -431.719)" opacity="0.23">
+      <g id="Group_11" data-name="Group 11">
+        <g id="Group_10" data-name="Group 10">
+          <g id="Group_9" data-name="Group 9" transform="translate(2574 1506.66) rotate(180)">
+            <g id="Group_15" data-name="Group 15">
+              <path id="Path_27" data-name="Path 27" d="M3156,2906.123c-145.162-108.536-270.033-47.87-325.445-17.537s-141.262,37.917-275.5-98.583c-25.1-25.525-51.624-36.068-78.027-36.338-115.479-1.179-231.03,191.8-231.03,191.8" transform="translate(-632 -2061.999)" fill="none" stroke="#fd2f5c" stroke-width="9"/>
+              <path id="Path_28" data-name="Path 28" d="M0,39.339c145.163,108.536,270.034,47.87,325.446,17.536s141.261-37.917,275.5,98.583c25.1,25.525,51.624,36.068,78.027,36.338C794.449,192.975,910,0,910,0" transform="translate(704 883.139)" fill="none" stroke="#fd2f5c" stroke-width="9"/>
+            </g>
+          </g>
+          <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1856 574)" fill="none" stroke="#fd2f5c" stroke-width="9">
+            <circle cx="20" cy="20" r="20" stroke="none"/>
+            <circle cx="20" cy="20" r="15.5" fill="none"/>
+          </g>
+          <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(22 634)" fill="none" stroke="#fd2f5c" stroke-width="9">
+            <circle cx="20" cy="20" r="20" stroke="none"/>
+            <circle cx="20" cy="20" r="15.5" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
