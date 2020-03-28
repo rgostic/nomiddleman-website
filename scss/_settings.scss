@@ -78,7 +78,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1440);
+$global-width: rem-calc(1024);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #de8541,
@@ -866,7 +866,7 @@ $topbar-unstack-breakpoint: medium;
 // 56. Xy Grid
 // -----------
 
-$xy-grid: true;
+$xy-grid: false;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (

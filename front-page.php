@@ -2,7 +2,7 @@
 get_template_part('part/structure/head');
 get_template_part('part/structure/header');
 ?>
-<div class="container">
+<div class="container-fluid">
     <div class="row expanded">
         <div class="columns large-12">
             <?php get_template_part('part/front-page/top-fold'); ?>
@@ -14,9 +14,14 @@ get_template_part('part/structure/header');
         </div>
         <div class="columns small-12 large-6 large-offset-2">
             <div class="row">
-                <div class="columns small-12 large-12">
+
+
+                <div class="columns">
                     <?php get_template_part('part/front-page/description'); ?>
+
                 </div>
+            </div>
+            <div class="row">
                 <div class="columns">
                     <?php get_template_part('part/front-page/features'); ?>
                 </div>
