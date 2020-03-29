@@ -1,0 +1,28 @@
+.testimonials {
+  .testimonial {
+    padding: 0 12px 24px 12px;
+
+    svg {
+      width: 48px;
+    }
+
+    h4 {
+      font-size: 20px;
+      color: #ffffff;
+      line-height: 1.4;
+    }
+
+    h5 {
+      font-family: 'Prompt', sans-serif;
+      padding-bottom: 4px;
+      line-height: 1.4;
+      font-size: 17px;
+    }
+
+    p {
+      padding-left: 24px;
+      font-style: italic;
+      font-size: 13px;
+    }
+  }
+}

@@ -6,6 +6,12 @@ html {
   //margin-right: 2px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   //background: url('http://om.test/wp-content/uploads/2019/10/om-pacific-icon.png');
   //background-size: cover;
@@ -13,7 +19,7 @@ body {
   margin: 12px;
   color: $primary-color;
   position: relative;
-
+  //text-align: center;
   font-size: 17px;
   font-family: 'Prompt', sans-serif;
 
@@ -29,7 +35,46 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cocogoose', sans-serif;
 }
 
+//.column-space-evenly {
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: space-between;
+//}
 
+section {
+  //border: 1px solid $primary-color;
+  margin-bottom: 32px;
+  //box-shadow: inset 0px 0px 5px $tertiary-color;
+  padding: 12px;
+}
+
+.section-title {
+    writing-mode: vertical-lr;
+    white-space: nowrap;
+    //position: absolute;
+    //top: 0;
+    //left: 0;
+    //text-align: right;
+    font-family: 'Cocogoose Block';
+    text-align: right;
+    font-size: 92px;
+    text-shadow: 0px -2px 3px $tertiary-color;
+    //background: none;
+    //transform-origin: 100% 0;
+    transform: rotate(180deg);
+    //max-width: 181px;
+    //display: inline-block;
+  }
+
+
+
+.section-title-horizontal {
+  padding-bottom: 20px;
+  font-size: 92px;
+  //text-align: center;
+  font-family: 'Cocogoose Block';
+  text-shadow: -2px 0px 3px $tertiary-color;
+}
 
 .button-gradient {
   width: 200px;
@@ -44,10 +89,5 @@ h1, h2, h3, h4, h5, h6 {
   svg {
     display: inline;
     width: 100px;
-  }
-
-  p {
-    margin: 0;
-    padding: 0;
   }
 }

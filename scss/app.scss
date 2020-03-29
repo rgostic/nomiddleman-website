@@ -8,11 +8,11 @@
 @import 'theme/masthead';
 
 @import 'theme/front-page/top-fold';
-@import 'theme/front-page/features';
-@import 'theme/front-page/description';
-@import 'theme/front-page/why-us';
-@import 'theme/front-page/testimonials';
 
+@import 'theme/front-page/sections/features';
+@import 'theme/front-page/sections/why-us';
+@import 'theme/front-page/sections/testimonials';
 
-@import 'theme/general/crypto-list';
+@import 'theme/general/sections/download-now';
+@import 'theme/general/sections/crypto-list';
 

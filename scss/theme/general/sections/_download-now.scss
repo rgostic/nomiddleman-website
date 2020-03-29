@@ -1,0 +1,31 @@
+.download-now {
+  //display: flex;
+
+  //margin: 136px 32px;
+  //margin: 0;
+  //background: url("/../../../../wp-content/themes/nmm/img/svg/lilsquiggle.svg");
+  //background-repeat: no-repeat;
+  //background-size: contain;
+  //background-position: top center;
+  //text-align: center;
+
+  .section-title-horizontal {
+    //font-size: 78px;
+  }
+
+  h2 {
+    color: #ffffff;
+    font-size: 28px;
+  }
+
+  .button-wrapper {
+    text-align: center;
+    padding: 12px;
+    flex-grow: 1;
+  }
+
+  a {
+    //margin: 24px;
+    display: inline-block;
+  }
+}
