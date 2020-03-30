@@ -1,32 +1,35 @@
 .crypto-list {
-  .supported-crypto-list-image {
-    padding: 0;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 6px 12px 0;
-  }
+
 
   .supported-crypto-list {
     list-style-type: none;
     display: flex;
     color: #000;
     flex-wrap: wrap;
-    padding: 24px;
-
+    padding: 28px 28px 16px 28px;
+    border-radius: 15px;
     background-color: #fff;
     box-shadow: inset 2px 2px 15px #1a012a;
     justify-content: space-around;
 
     li {
-      flex-basis: 140px;
+      flex-basis: 120px;
       white-space: nowrap;
       font-size: 17px !important;
+      display: flex;
+      justify-content: center;
     }
+
+    .supported-crypto-list-image {
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px 12px 0;
+  }
   }
 }
 
 .sprint_0x-logo-small, .sprint_augur-logo-small, .sprint_basicattentiontoken-logo-small, .sprint_binancecoin-logo-small, .sprint_bitcoin-logo-small, .sprint_bitcoincash-logo-small, .sprint_bitcoindiamond-logo-small, .sprint_bitcoingold-logo-small, .sprint_bitcoinsv-logo-small, .sprint_blackcoin-logo-small, .sprint_bytecoin-logo-small, .sprint_cardano-logo-small, .sprint_chainlink-logo-small, .sprint_dash-logo-small, .sprint_decred-logo-small, .sprint_deeponion-logo-small, .sprint_digibyte-logo-small, .sprint_dogecoin-logo-small, .sprint_eos-logo-small, .sprint_ethereum-logo-small, .sprint_ethereumclassic-logo-small, .sprint_geminidollar-logo-small, .sprint_gnosis-logo-small, .sprint_holochain-logo-small, .sprint_iota-logo-small, .sprint_lisk-logo-small, .sprint_litecoin-logo-small, .sprint_maker-logo-small, .sprint_melon-logo-small, .sprint_monero-logo-small, .sprint_nem-logo-small, .sprint_omisego-logo-small, .sprint_ontology-logo-small, .sprint_potcoin-logo-small, .sprint_qtum-logo-small, .sprint_ripple-logo-small, .sprint_stellar-logo-small, .sprint_tezos-logo-small, .sprint_tron-logo-small, .sprint_vechain-logo-small, .sprint_vericoin-logo-small, .sprint_waves-logo-small, .sprint_zcash-logo-small {
-    //display: block;
     background: url("../img/crypto-logos/spriteimage.png") no-repeat;
     overflow: hidden;
     text-indent: -9999px;

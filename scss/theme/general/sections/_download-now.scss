@@ -1,17 +1,4 @@
 .download-now {
-  //display: flex;
-
-  //margin: 136px 32px;
-  //margin: 0;
-  //background: url("/../../../../wp-content/themes/nmm/img/svg/lilsquiggle.svg");
-  //background-repeat: no-repeat;
-  //background-size: contain;
-  //background-position: top center;
-  //text-align: center;
-
-  .section-title-horizontal {
-    //font-size: 78px;
-  }
 
   h2 {
     color: #ffffff;
@@ -21,11 +8,41 @@
   .button-wrapper {
     text-align: center;
     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     flex-grow: 1;
+
+    .button-gradient {
+    margin: 20px;
+    width: 200px;
+    padding: 12px 12px;
+    font-size: 24px;
+    display: flex;
+      width: 60%;
+      align-self: center;
+    align-items: center;
+    background: linear-gradient(to right, $primary-color, $tertiary-color);
+      justify-content: center;
+    color: #ffffff;
+    border-radius: 5px;
+
+    svg {
+      display: inline;
+      height: 30px;
+      padding-right: 8px;
+    }
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+  }
   }
 
   a {
-    //margin: 24px;
-    display: inline-block;
+    display: block;
+    width:100%;
   }
+
+
 }

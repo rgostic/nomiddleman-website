@@ -22,6 +22,7 @@
       transform: rotate3d(0,1,0,180deg);
       transition: transform 0.2s ease-in;
     }
+
     h5 {
       color: $tertiary-color;
     }
@@ -43,9 +44,7 @@
   .why-us-item {
     padding-bottom: 8px;
     display: flex;
-    //justify-content: center;
     align-items: center;
-    //flex-direction: column;
 
     svg, img {
       height: 32px;

@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
   margin-bottom: 32px;
-  padding: 12px;
+  padding: 64px;
 }
 
 .section-title {
@@ -41,23 +41,8 @@ section {
   font-family: 'Cocogoose Block';
   text-shadow: -2px 0px 3px $tertiary-color;
 
-  @media (medium down) {
-    font-size: 48px;
+  @include breakpoint(medium down) {
+    font-size: 48px!important;
   }
 }
 
-.button-gradient {
-  width: 200px;
-  padding: 12px 12px;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  background: linear-gradient(to right, $primary-color, $tertiary-color);
-  color: #ffffff;
-  border-radius: 5px;
-
-  svg {
-    display: inline;
-    width: 100px;
-  }
-}
