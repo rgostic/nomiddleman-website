@@ -3,6 +3,7 @@ get_template_part('part/structure/head');
 get_template_part('part/structure/header');
 ?>
 <div class="content-main">
+    <h2>Hi Margaret!</h2>
     <div class="row expanded">
         <div class="columns large-12">
             <?php get_template_part('part/front-page/top-fold'); ?>
