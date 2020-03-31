@@ -7,11 +7,18 @@
   margin: 64px;
   text-align: center;
 
+  @include breakpoint(medium down) {
+    margin:12px;
+  }
   h1 {
     font-size:39px;
     color: #ffffff;
     font-family: 'Cocogoose', 'Prompt', sans-serif;
     padding-bottom: 32px;
+
+    @include breakpoint(medium down) {
+      font-size: 24px;
+    }
   }
 
   p {

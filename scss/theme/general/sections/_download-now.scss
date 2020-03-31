@@ -13,36 +13,10 @@
     justify-content: space-evenly;
     flex-grow: 1;
 
-    .button-gradient {
-    margin: 20px;
-    width: 200px;
-    padding: 12px 12px;
-    font-size: 24px;
-    display: flex;
-      width: 60%;
-      align-self: center;
-    align-items: center;
-    background: linear-gradient(to right, $primary-color, $tertiary-color);
-      justify-content: center;
-    color: #ffffff;
-    border-radius: 5px;
 
-    svg {
-      display: inline;
-      height: 30px;
-      padding-right: 8px;
-    }
-
-      &:last-child {
-        margin-bottom: 0px;
-      }
-  }
   }
 
-  a {
-    display: block;
-    width:100%;
-  }
+
 
 
 }

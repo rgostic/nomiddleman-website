@@ -16,7 +16,8 @@
   }
 
   a:hover {
-    text-decoration-color: $tertiary-color;
+    //text-decoration-color: $tertiary-color;
+    text-shadow: 0px 0px 20px lighten($tertiary-color, 10%);
 
     svg {
       transform: rotate3d(0,1,0,180deg);
@@ -24,7 +25,7 @@
     }
 
     h5 {
-      color: $tertiary-color;
+      //color: $tertiary-color;
     }
   }
 
