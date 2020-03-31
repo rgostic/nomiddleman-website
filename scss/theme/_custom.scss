@@ -1,8 +1,11 @@
-* {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
 
 body {
   margin: 12px;
@@ -27,9 +30,17 @@ section {
   @include breakpoint(medium down) {
     padding: 15px;
   }
-}
 
-.section-title {
+  &:hover {
+    //border: 1px solid $primary-color;
+    box-shadow: 0px 0px 4px $tertiary-color;
+    .section-title-horizontal {
+      color: #ffffff;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+
+  .section-title {
     writing-mode: vertical-lr;
     white-space: nowrap;
     font-family: 'Cocogoose Block';
@@ -39,9 +50,25 @@ section {
     transform: rotate(180deg);
   }
 
+  .section-title-horizontal {
+    padding-bottom: 20px;
+    font-size: 92px;
+    font-family: 'Cocogoose Block';
+    color: transparent;
+    text-shadow: 2px 2px $primary-color;
+    cursor: default;
+    &:hover {
+      color: #ffffff;
+    }
+
+    @include breakpoint(medium down) {
+      font-size: 48px!important;
+    }
+  }
+}
+
 .button-gradient {
-    margin: 20px;
-    //width: 200px;
+    margin-bottom: 40px;
     padding: 20px 30px;
     font-size: 18px;
     display: flex;
@@ -60,6 +87,7 @@ section {
       display: inline;
       height: 30px;
       padding-right: 8px;
+      color: #ffffff;
     }
 
     &:last-child {
@@ -68,20 +96,9 @@ section {
 
     &:hover {
       transition: all 0.3s ease-in-out;
-      //background: linear-gradient(to right, $tertiary-color, $primary-color);
+      color: #ffffff;
       box-shadow: 0 10px 30px rgba(0,0,0,.4);
       background-position: -100% 0;
     }
   }
-
-.section-title-horizontal {
-  padding-bottom: 20px;
-  font-size: 92px;
-  font-family: 'Cocogoose Block';
-  text-shadow: -2px 0px 3px $tertiary-color;
-
-  @include breakpoint(medium down) {
-    font-size: 48px!important;
-  }
-}
 
