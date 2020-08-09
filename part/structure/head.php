@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
+    <link rel="shortcut icon" href="<?php echo OM_DIR . '/img/favicon.png'; ?>" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140769594-1"></script>
     <script>
