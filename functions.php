@@ -20,6 +20,6 @@ function NMM_enqueue_styles() {
 	wp_enqueue_style('main-style', NMM_DIR . '/css/app.css', '', NMM_VERSION);
 }
 
-function NMMM_load_dashicons_front_end() {
+function NMM_load_dashicons_front_end() {
   wp_enqueue_style( 'dashicons' );
 }
